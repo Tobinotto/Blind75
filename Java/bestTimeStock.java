@@ -5,7 +5,7 @@ buying on one day and selling on another
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Solution{
+class SolutionBestTImeStock {
     // Brute force approach
     public static int maxProfitBrute(int[] prices) {
         ArrayList<Integer> maxProfits = new ArrayList<Integer>();
@@ -40,7 +40,7 @@ class Solution{
     }
 
     public static void main(String[] args) {
-        int[] prices = {4,1,5,2,7};
+        int[] prices = {4,1,5,2,7, 1, 1, 3, 8, 5, 6, 7, 8, 9, 11, 3, 4};
         System.out.println(maxProfit(prices));
     }
     

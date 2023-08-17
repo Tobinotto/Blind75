@@ -1,6 +1,6 @@
 // validPalindrome: checks whether an inputted string, s, is a palindrome or not
 
-class Solution {
+class SolutionValidPalindrome {
     public static boolean isPalindrome(String s) {
         s = s.toLowerCase();
 
