@@ -25,7 +25,7 @@ class SolutionBestTImeStock {
 
     // Sliding Window approach
     public static int maxProfit(int[] prices) {
-        int minPrice = Integer.MAX_VALUE;
+        int minPrice = Integer.MAX_VALUE;   // set to max value to always be greater than first price
         int maxProfit = 0;
         for (int i=0; i<prices.length; i++) {
             int currPrice = prices[i];
@@ -40,7 +40,7 @@ class SolutionBestTImeStock {
     }
 
     public static void main(String[] args) {
-        int[] prices = {4,1,5,2,7, 1, 1, 3, 8, 5, 6, 7, 8, 9, 11, 3, 4};
+        int[] prices = {4,1,5,2,7};
         System.out.println(maxProfit(prices));
     }
     
